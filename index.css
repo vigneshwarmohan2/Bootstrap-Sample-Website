@@ -1,0 +1,267 @@
+html {
+  scroll-behavior: smooth;
+}
+nav {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+ul {
+  padding-top: 10px;
+  list-style: none;
+  padding-left: 60%;
+}
+ul li {
+  margin-left: 20px;
+}
+.navbar li a {
+  color: white;
+  margin-right: 10px;
+}
+nav img {
+  width: 50px;
+  margin: 10px;
+}
+/* banner section */
+#main {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  /* padding-top: 5%; */
+  /* text-align: center; */
+}
+#main h1 {
+  font-weight: bold;
+  font-size: x-large;
+}
+#main .container {
+  padding-top: 10%;
+  padding-left: 25%;
+}
+#main p {
+  color: #fff;
+}
+.container img {
+  width: 45px;
+  margin-top: 10px;
+}
+.container #banner {
+  width: 400px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+.play-button {
+  color: #fff;
+  margin: 10px;
+  text-decoration: none;
+}
+#service h2 {
+  text-align: center;
+  margin-top: 70px;
+  color: #441a4b;
+}
+#service h2::after {
+  content: "";
+  background: #7b1798;
+  height: 2px;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(23px);
+}
+#service h3 {
+  text-align: center;
+  padding-top: 40px;
+}
+#service p {
+  margin-top: 40px;
+  text-align: center;
+}
+.btn-primary {
+  margin-top: 6%;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  margin-bottom: 30px;
+}
+#aboutus h2::after {
+  content: "";
+  background: #7b1798;
+  height: 2px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(23px);
+}
+.aboutus h3 {
+  text-decoration: underline;
+  margin-top: 40px;
+}
+.aboutus p {
+  margin-left: 30px;
+  font-size: large;
+}
+.about p {
+  font-size: larger;
+  font-weight: bold;
+  margin-top: 30px;
+}
+#about-img {
+  margin-top: 40px;
+  width: 200px;
+  border-radius: 20px;
+}
+/* card creation */
+.more {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  color: #fff;
+}
+.more {
+  border: 3px solid black;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+.more .title {
+  text-decoration: underline;
+}
+.more .title,
+.sub-title,
+.para {
+  text-align: center;
+}
+.img {
+  padding: 80px;
+  padding-left: 250px;
+  max-width: 100%;
+  height: auto;
+}
+.say {
+  padding-top: 40px;
+}
+#testimonial h2::after {
+  content: "";
+  background: #7b1798;
+  height: 2px;
+  width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(23px);
+}
+/* testimonial  section */
+#testimonial .first {
+  margin-top: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+#testimonial {
+  border-left: 4px solid #7b1798;
+  padding-left: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+#testimonial img {
+  height: 60px;
+  width: 100px;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+#testimonial .second {
+  margin-top: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+#testimonial {
+  border-left: 4px solid #7b1798;
+  padding-left: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+#testimonial img {
+  height: 60px;
+  width: 100px;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+#testimonial .third {
+  margin-top: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+#testimonial {
+  border-left: 4px solid #7b1798;
+  padding-left: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+#testimonial img {
+  height: 60px;
+  width: 100px;
+  margin: 0 10px;
+  border-radius: 50%;
+}
+.find {
+  padding-top: 40px;
+}
+.find::after {
+  content: "";
+  background: #7b1798;
+  height: 2px;
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(23px);
+}
+.social-media img {
+  width: 50px;
+  margin-top: 70px;
+  margin-left: 40px;
+  transition: 0.5s;
+}
+.social-media img:hover {
+  transform: translateY(-10px);
+}
+#footer {
+  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  margin-top: 20px;
+  color: #fff;
+}
+#footer p {
+  margin-top: 10px;
+}
+.form {
+  height: 30px;
+  color: #000;
+}
+.subscribe-btn {
+  /* margin-left: 10px; */
+  margin-top: 25px;
+}
+.copy {
+  margin-bottom: 0px;
+  text-align: center;
+}
+.footer-label {
+  background: none;
+}
+.footer-text p {
+  background-color: rgb(88, 36, 36);
+  width: 110px;
+  padding-left: 20px;
+  margin-left: 10px;
+  border-radius: 20px;
+  color: goldenrod;
+}
+/* .about li {
+  font-size: larger;
+} */
+/* creation of image using camera */
+#my_camera {
+  width: 320px;
+  height: 240px;
+  border: 1px solid black;
+}
+.contentarea input {
+  margin-top: 15px;
+}
